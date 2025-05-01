@@ -1,1 +1,67 @@
+/* open-sans-regular - latin */
+@font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: url('open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
+ /* open-sans-800 - latin */
+ @font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 800;
+   src: url('open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+ }
 
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+   color: #343669 ;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+h1 {
+   font-display: swap;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 800;
+   color: #FFD700;
+}
+
+h4{
+    font-display: swap;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 400;
+   color: #FFD700;
+}
+
+h5{
+   font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFD700;
+}
+
+div {
+   font-family: "Open Sans", American Typewriter, serif;
+   max-width: 800px;
+   margin: auto; 
+   color: #FFFFFF;
+}
+
+.no-right-click {
+    pointer-events: none;
+}
+body {
+   background-color: rgba(0,0,128,0.8);
+}
