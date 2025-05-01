@@ -1,1 +1,105 @@
+/*Standard Selectors*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  color: seashell;
+}
+
+main {
+  background-image: url("mission-background.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+address h4, address p {
+  padding: 5px;
+}
+
+/*Class Selectors*/
+.main-text {
+  background-color: black;
+  width: 100%;
+}
+
+.main-text * {
+margin: 10px 0;
+}
+
+.tea-images img {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+
+.tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.addresses {
+  display: flex;
+  justify-content: space-around;
+  font-style: none;
+}
+
+.addresses address {
+  background-color: black;
+  padding: 20px;
+}
+
+.locations {
+ 
+  background-image: url("locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.contact {
+  height: 200px;
+
+}
+
+.contact h2, .contact h5 {
+  margin: 20px 0;
+}
+
+footer .copyright {
+  text-align: left;
+  margin: 20px;
+}
