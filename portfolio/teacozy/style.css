@@ -32,7 +32,7 @@ nav a {
 }
 
 main {
-  background-image: url("mission-background.jpg");
+  background-image: url("images/mission-background.jpg");
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@ margin: 10px 0;
 
 .locations {
  
-  background-image: url("locations-background.jpg");
+  background-image: url("images/locations-background.jpg");
   background-position: center;
   background-size: cover;
   padding: 150px 0;
