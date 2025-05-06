@@ -61,7 +61,7 @@ header nav ul {
 
 nav li {
     padding-left: 3.5rem;
-    list-style-type: none;
+    list-style: none;
 }
 
 nav a {
