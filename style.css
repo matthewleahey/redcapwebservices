@@ -13,6 +13,8 @@ nav {
 
 nav a {
   display: inline-block;
-   align-items: center;
+  align-items: center;
   justify-content: space-around;
+  text-decoration: none;
+  color: black;
 }
