@@ -9,6 +9,8 @@ nav {
   display: flex;
   margin: auto;
   padding: 30px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 nav a {
