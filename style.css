@@ -1,12 +1,14 @@
 body {
  background-color: light-gray; 
  font-size: 16px;
+ font-family: Arial;
 }
 
 /*Header*/
 nav {
   display: flex;
-  
+  margin: auto;
+  padding: 30px;
 }
 
 nav a {
