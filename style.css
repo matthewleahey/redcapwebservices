@@ -12,7 +12,7 @@ nav {
 }
 
 nav a {
-  display: inline-block;
+  display: inline;
   align-items: center;
   justify-content: space-around;
   text-decoration: none;
@@ -23,3 +23,10 @@ a:visited {
  color: black;
  text-decoration: none;
 }
+
+
+/*Main*/
+
+
+
+/*Footer*/
