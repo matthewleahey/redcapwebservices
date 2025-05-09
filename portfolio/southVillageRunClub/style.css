@@ -1,1 +1,68 @@
+/*Default*/
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: lightsalmon;
+}
 
+/*Header/Footer*/
+nav {
+    color: lightsalmon;
+    background-color: teal;
+    height: 60px;
+}
+
+nav a {
+    color: lightsalmon;
+    text-decoration: none;
+    justify-content: space-around;
+    text-align: left;
+    display: inline-flex;
+    align-items: flex-end;
+    font-size: large;
+    padding-left: 25px;
+    position: relative;
+    bottom: 0;
+}
+
+nav a:visited {
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+/*Main*/
+.club-image {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-width: 200px;
+}
+
+.club-images {
+
+}
+
+.main-title {
+    color: Coral;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+    align-items: center;
+    height: 110px;
+    justify-content: center;
+    margin: auto;
+}
+
+.meetup-container {
+    color: yellow;
+}
+
+.quote {
+    color: yellow;
+}
+
+.race-text {
+    color: yellow;
+}
